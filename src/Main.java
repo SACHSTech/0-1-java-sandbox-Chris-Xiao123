@@ -22,6 +22,8 @@ public class Main extends ConsoleProgram {
         println("Hello, " + name + "!");
         int age = readInt("how old are you? ");
         System.out.println("you are " + age + " years old");
+        int grade = readInt("What grade are you in");
+        System.out.println("You are in grade " + grade);
         
         // === END OF YOUR CODE ===
     }
